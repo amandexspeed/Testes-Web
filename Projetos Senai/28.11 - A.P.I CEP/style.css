@@ -1,0 +1,64 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image:url("https://img.freepik.com/vetores-gratis/hexagono-de-fundo-abstrato-com-textura-preta_206725-413.jpg");
+    background-size: cover;
+    
+}
+
+div{
+
+    padding: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+input{
+
+    margin-top: 5px;    
+    margin-bottom: 5px;
+    font-weight:bold;
+
+}
+
+input:focus{
+
+    outline: none;
+
+}
+
+h2{
+
+    margin-top: 5px; 
+    margin-bottom: 5px;
+
+}
+
+.btn{
+
+    font-weight:bold;
+    color: white;
+    background-color: black; 
+    border-width: 1px;
+    border-color: white;
+    padding: 2px;
+
+}
